@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header_wrapper {
+    a{
+        color: grey;
+        text-decoration: none;
+        &.activated {
+            color: lightgreen;
+        }
+        &:hover {
+            color: green;
+        }
+    }
+}

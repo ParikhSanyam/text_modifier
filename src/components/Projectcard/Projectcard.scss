@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.project-card-wrapper{
+    .card{
+        border-bottom: 12px solid lightgreen;
+        .cvbtn{
+            height: 40px;
+            color: #ffffff;
+            background: #000000;
+            border-radius: 6px;
+            padding: 4px 20px;
+            border: none;
+            box-shadow: 0 2px 8px gainsboro;   
+        }
+        .img-wrapper{
+            height: 120px;
+            width: 100%;
+            opacity: 0.8;
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}

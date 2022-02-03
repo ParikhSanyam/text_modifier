@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    .footer-wrapper{
+        bottom: 0;
+        position: sticky;
+        a{
+            color: grey;
+            text-decoration: none;
+            &:hover {
+                color: lightgreen;
+            }
+        }
+    }
+}
