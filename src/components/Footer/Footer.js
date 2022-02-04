@@ -26,6 +26,9 @@ function Footer(props) {
                                     </ul>
                                 </div>
                             </div>
+                            <div className='col-lg-6 col-12'>
+                                <h6>@copyright 2020 to SamTech</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
