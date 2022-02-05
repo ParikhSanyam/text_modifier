@@ -1,0 +1,12 @@
+.contact-main-wrapper{
+    height: calc(100vh - 120px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .contact-wrapper{
+        border: 2px solid lightgreen;
+        border-radius: 12px;
+        padding: 54px;
+        box-shadow: 0 0 12px lightgrey;
+    }
+}

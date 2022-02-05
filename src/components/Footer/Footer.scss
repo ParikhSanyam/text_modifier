@@ -4,11 +4,14 @@
     box-sizing: border-box;
 }
 footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
     .footer-wrapper{
         bottom: 0;
         position: sticky;
         a{
-            color: grey;
+            color: #ffffff;
             text-decoration: none;
             &:hover {
                 color: lightgreen;

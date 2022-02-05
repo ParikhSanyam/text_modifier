@@ -3,15 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-.header_wrapper {
-    a{
-        color: grey;
-        text-decoration: none;
-        &.activated {
-            color: lightgreen;
-        }
-        &:hover {
-            color: green;
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: sticky;
+    z-index: 9;
+    .header_wrapper {
+        a{
+            color: grey;
+            text-decoration: none;
+            &.activated {
+                color: lightgreen;
+            }
+            &:hover {
+                color: green;
+            }
         }
     }
 }

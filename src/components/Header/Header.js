@@ -9,9 +9,9 @@ function Header(props) {
         <div>
           <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
-              <a className="navbar-brand" href="#">
+              <NavLink className="navbar-brand" to="/home">
                 {props.title}
-              </a>
+              </NavLink>
               <button
                 className="navbar-toggler"
                 type="button"
@@ -29,7 +29,7 @@ function Header(props) {
               >
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
                   <li className="nav-item mx-2">
-                    <NavLink className="nav-link" to="/home">
+                    <NavLink className="nav-link" to="/">
                       Home
                     </NavLink>
                   </li>

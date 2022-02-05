@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about-wrapper{
+    .logo-wrap{
+        height: 160px;
+        width: 160px;
+        border-radius: 50%;
+        box-shadow: 0 2px 8px #888;
+        img{
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+        }
+    }
+    .project-name{
+        font-size: 45px;
+        color: #000000;
+        text-shadow: 1px 1px 2px grey;
+        letter-spacing: 6px;
+    }
+}
